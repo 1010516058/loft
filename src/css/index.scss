@@ -1,0 +1,137 @@
+.logo{
+    width: 120px;
+    height: 78px;
+    // background: rgba(255, 255, 255, 0.2);
+    // margin: 16px 24px 16px 0;
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 78px;
+    font-size: 30px;
+    // cursor: pointer;
+    // font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+}
+.head {
+    height:78px !important;
+    margin-bottom:30px !important;
+    background:#24292c !important;
+    width: 100% !important;
+    padding: 0px !important;
+    
+}
+.head >ul{
+    height: 78px !important;
+    background:#24292c !important;
+    line-height: 78px !important;
+    width: 928px !important;
+    margin: 0 auto !important;
+    
+    
+}
+
+.head >ul>li{
+    // height: 78px;
+    background: none !important;
+    font-size: 16px;
+}
+.left{
+    width: 647px;
+    margin-right: 10px;
+    float: left;
+}
+.right{
+    width: 230px;
+   
+    float: left;
+}
+.leftHeader{
+    width: 645px;
+    height: 110px;
+    background: white;
+}
+.leftHeader>div{
+    height: 110px;
+    width: 110px;
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 110px;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+}
+.item{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.avator{
+    width: 64px;
+    height: 64px;
+    background: brown;
+    float: left;
+    margin-right: 11px;
+}
+.avator >img{
+    width: 64px;
+    height: 64px;
+}
+.content{
+    width: 570px;
+    float: left;
+    background: white;
+    padding: 20px;
+}
+
+.artMainImg>img{
+    width: 164px ;
+    height: 161px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+.artMainText{
+    width: 500px;
+    line-height: 1.6;
+    font-size: 14px;
+
+}
+
+    .artFooter{
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+    }
+    .artFooterTags{
+        display: inline-block;
+        width: 164px;
+        float: left;
+    }
+    .artFooterOther{
+        width: 100%;
+    }
+    .artFooterOther > div{
+        float: left;
+        margin-right: 5px;
+    }
+
+
+.footer{
+    display: inline-block;
+    float: left;
+}
+.open{
+    display: inline-block;
+    width: 100%;
+    float: left;
+}
+.card > p{
+    color: #444;
+    font-size: 14px;
+    line-height: 18px;
+    border-bottom: 1px solid #444 !important;
+}
+.ant-card-body{
+    padding: 0px !important;
+}

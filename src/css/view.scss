@@ -1,0 +1,84 @@
+.userinfo{
+    width: 300px;
+    border:1px solid #ddd;
+    box-shadow: 0 0 6px #ddd;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.user{
+    padding: 15px;
+}
+.content >img{
+    width: 298px;
+    cursor: pointer;
+}
+.follow{
+    height: 50px;
+}
+.follow> div{
+    display: inline-block;
+    float: left;
+}
+.username{
+    height: 50px;
+    line-height: 50px;
+}
+.adduser{
+    width: 54px;
+    height: 28px;
+    line-height: 25px;
+    float: right !important;
+    border:1px solid #9ac600;
+    color: #9ac600;
+    margin-top: 15px;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer{
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    color: #aaa;
+}
+.ant-modal-title{
+    height: 50px !important;
+}
+.bigImg > img{
+    padding: 0px;
+    width: 924px;
+    margin-bottom: 40px;
+}
+:global{
+    .ant-modal-body{
+        padding: 0px;
+    }
+    .ant-modal-footer{
+        display: none;
+    }
+}
+.artFooter{
+    width: 100%;
+    float: left;
+    background: #fff;
+}
+.artFooterTags{
+    display: inline-block;
+    width: 164px;
+    float: left;
+}
+
+.artFooterOther{
+    width: 100%;
+}
+.artFooterOther > div{
+    float: left;
+    margin-right: 5px;
+}
+.comUl >li {
+    padding-left: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid#e7e7e7;
+}
